@@ -74,3 +74,17 @@ function markImportant(){
     
 
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    var toggleButton = document.getElementById("toggleButton");
+    var messageBox = document.getElementById("messageBox");
+    var closeButton = document.getElementById("closeButton");
+  
+    toggleButton.addEventListener("click", function() {
+      messageBox.classList.toggle("hidden");
+    });
+  
+    closeButton.addEventListener("click", function() {
+      messageBox.classList.add("hidden");
+    });
+  });
