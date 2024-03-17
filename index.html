@@ -34,10 +34,25 @@
     <button id="closeButton">Close</button>
   </div>
 
-  
+  <div id="comments">
+    <h2>Comments</h2>
+    <ul id="commentList">
+      <!-- Comments will be added here dynamically -->
+    </ul>
+    <form id="commentForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="comment">Comment:</label><br>
+      <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+      
+      <input type="submit" value="Post Comment">
+    </form>
+  </div>
   <footer>
     <p>&copy; 2024 Graphic & Logo Design Services. All rights reserved.</p>
   </footer>
+  
   
     </main>
 </body>
