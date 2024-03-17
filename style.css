@@ -57,3 +57,61 @@ footer {
 #closeButton {
   margin-top: 10px;
 }
+
+
+#comments {
+  margin-top: 40px;
+}
+
+#comments h2 {
+  margin-bottom: 10px;
+}
+
+#commentList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#commentList li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+#commentList li:last-child {
+  border-bottom: none;
+}
+
+#commentList li strong {
+  font-weight: bold;
+}
+
+#commentForm {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+#commentForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#commentForm input[type="text"],
+#commentForm textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#commentForm input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#commentForm input[type="submit"]:hover {
+  background-color: #555;
+}
