@@ -130,9 +130,25 @@ footer {
 }
 
 .service img {
-  max-width: 100%;
-  height: auto;
+  max-width: 70%;
+  height: 50%;
   margin-bottom: 10px;
+  border-radius: 25px;
+}
+.service2 {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.service2 img{
+  height: 5%;
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 25px;
 }
 
 .service h3 {
